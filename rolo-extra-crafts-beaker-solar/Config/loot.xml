@@ -1,0 +1,6 @@
+<configs>
+	<append xpath="/lootcontainers/lootgroup[@name='schematicsElectrical']">
+		<item name="solarbankSchematic"/>
+		<item name="solarCellSchematic"/>
+	</append>
+</configs>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="rolo-muffler" />
+		<Description value="tryina watch a movie here alright?  
+		Removes the loud noise from auger and chainsaws. 
+		>>>>WARNING - GAMEPLAY EFFECT - THIS REMOVES THE HEATMAP TOO<<<<" />
+		<Author value="RoloDage" />
+		<Version value="A18.4" />
+		<Website value="" />
+	</ModInfo>
+</xml>

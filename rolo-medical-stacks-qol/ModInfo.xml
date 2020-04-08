@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="rolo-medical-stacks-qol" />
+		<Description value="Increase the stack sizes of various medical supplies:
+		medicalFirstAidBandage - 15
+		medicalBandage         - 15
+		medicalFirstAidKit     - 10
+		drugPainkillers        - 50  (can't spam them, so lets make the stack pretty big)
+		drugVitamins           - 15
+		medicalBloodBag        - 25
+		drinkJarGrainAlcohol   - 25
+		" />
+		<Author value="RoloDage" />
+		<Version value="A18.4" />
+		<Website value="" />
+	</ModInfo>
+</xml>

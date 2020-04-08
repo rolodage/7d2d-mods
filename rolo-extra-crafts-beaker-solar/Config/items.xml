@@ -1,0 +1,45 @@
+<configs>
+	<append xpath='/items/item[@name="toolBeaker"]'>
+		<property name="UnlockedBy" value="toolBeakerSchematic,perkYeahScience"/>
+	</append>
+	<append xpath="/items">
+		<item name="toolBeakerSchematic">
+			<property name="Extends" value="schematicMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="toolBeaker"/>
+			<property name="Unlocks" value="toolBeaker"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="toolBeaker" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+			</effect_group>
+		</item>
+	</append>
+	<append xpath='/items/item[@name="solarCell"]'>
+		<property name="UnlockedBy" value="solarCellSchematic,perkAdvancedEngineering"/>
+	</append>
+	<append xpath="/items">
+		<item name="solarCellSchematic">
+			<property name="Extends" value="schematicMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="solarCell"/>
+			<property name="Unlocks" value="solarCell"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="solarCell" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+			</effect_group>
+		</item>
+	</append>
+	<append xpath="/items">
+		<item name="solarbankSchematic">
+			<property name="Extends" value="schematicMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="solarbank"/>
+			<property name="Unlocks" value="solarbank"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="solarbank" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+			</effect_group>
+		</item>
+	</append>
+	
+</configs>

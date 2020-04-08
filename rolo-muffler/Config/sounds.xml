@@ -1,0 +1,6 @@
+<configs>
+	<!-- Auger -->
+	<remove xpath='/Sounds/SoundDataNode[@name="Auger_Fire_Start"]'/>
+	<!-- Chainsaw -->
+	<remove xpath='/Sounds/SoundDataNode[@name="chainsaw_fire_start"]'/>
+</configs>

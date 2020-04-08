@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="rolo-extra-crafts-beaker-solar" />
+		<Description value="Add some extra crafting recipies for beakers and solar equipments." />
+		<Author value="RoloDage" />
+		<Version value="A18.4" />
+		<Website value="" />
+	</ModInfo>
+</xml>

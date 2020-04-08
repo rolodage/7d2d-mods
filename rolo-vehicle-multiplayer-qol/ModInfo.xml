@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="rolo-vehicle-multiplayer-qol" />
+		<Description value="Make the 4x4 truck have 4 total seats, and motorcycle 2." />
+		<Author value="RoloDage" />
+		<Version value="A18.4" />
+		<Website value="" />
+	</ModInfo>
+</xml>

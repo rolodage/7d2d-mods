@@ -1,0 +1,15 @@
+Key,Source,Context,Changes,English
+
+solarbankSchematic,items,,,Solar Bank Schematic
+solarbankSchematicDesc,items,Tools,New,Learn how to craft Solar Banks.
+
+solarCellSchematic,items,,,Solar Cell Schematic
+solarCellSchematicDesc,items,Tools,New,Learn how to craft Solar Cells.
+
+toolBeakerSchematic,items,,,Beaker Schematic
+toolBeakerSchematicDesc,items,Tools,New,Learn how to craft Beakers.
+
+perkYeahScienceRank1LongDesc,progression,Perk,newKey,"You have started on the path of science and are scholar. Craft chemistry stations and craft items with them 20% faster.\nCraft glue and aloe cream cheaper and gunpowder in efficient stacks.\nCraft beakers.",,,,,
+
+perkAdvancedEngineeringRank5LongDesc,progression,Perk,newKey,"Learn to craft SMG auto turrets for the best ranged base defense, and crucibles to forge steel in forges. Gain 50% XP from Electrical Trap Kills.\nAll forge recipes cost 20% less, crafting Forged Steel and electrical devices costs 35% less.  Also learn to craft solar equipment.",,,,,
+

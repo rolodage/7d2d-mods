@@ -1,0 +1,60 @@
+<configs>
+	<append xpath="/vehicles/vehicle[@name='vehicle4x4Truck']">
+		<property class="seat2">
+			<property name="position" value="-.4, 1.1, -1.62"/>
+			<property name="rotation" value="-25, 90, 0"/>
+			<property name="exit" value="-1.6,0,-3 ~ 1.6,0,-1 ~ -.4,0,-2.8 ~ -.4,0,2.6 ~ -.4,2.1,0"/>
+		</property>
+
+		<property class="seat3">
+			<property name="position" value=".4, 1.1, -1.62"/>
+			<property name="rotation" value="-25, -90, 0"/>
+			<property name="exit" value="1.6,0,-3 ~ -1.6,0,-1 ~ .4,0,-2.8 ~ .4,0,2.6 ~ .4,2.1,0"/>
+		</property>
+	</append>
+	<append xpath="/vehicles/vehicle[@name='vehicleMotorcycle']">
+		<property class="seat1">
+		<!-- 	x,                         z,                  y
+			+ is left, - is right  |  z is up/down  |   +forward/-backwards						-->
+			<property name="position" value="0, 0.15, -.571"/>
+			<!-- 1 lean | 2 rotate  |  3 ?? -->
+			<property name="rotation" value="0, 0, 0"/>
+			<property name="exit" value=".9,0,0 ~ -.9,0,0 ~ 0,0,-1.5 ~ 0,0,1.6 ~ 0,1.5,0"/>
+		</property>
+	</append>
+	
+	<!-- Seat0 and 1 overrides for developing where seats 2 and 3 should be without needing more than 2 people for testing 
+	<set xpath="/vehicles/vehicle[@name='vehicle4x4Truck']/property[@class='seat0']/property[@name='exit']/@value">-1.6,0,-3 ~ 1.6,0,-1 ~ -.4,0,-2.8 ~ -.4,0,2.6 ~ -.4,2.1,0</set>
+	<set xpath="/vehicles/vehicle[@name='vehicle4x4Truck']/property[@class='seat0']/property[@name='position']/@value">-.4, 1.1, -1.62</set>
+	<set xpath="/vehicles/vehicle[@name='vehicle4x4Truck']/property[@class='seat0']/property[@name='rotation']/@value">-25, 90, 0</set>
+	
+	<set xpath="/vehicles/vehicle[@name='vehicle4x4Truck']/property[@class='seat1']/property[@name='exit']/@value">1.6,0,-3 ~ -1.6,0,-1 ~ .4,0,-2.8 ~ .4,0,2.6 ~ .4,2.1,0</set>
+	<set xpath="/vehicles/vehicle[@name='vehicle4x4Truck']/property[@class='seat1']/property[@name='position']/@value">.4, 1.1, -1.62</set>
+	<set xpath="/vehicles/vehicle[@name='vehicle4x4Truck']/property[@class='seat1']/property[@name='rotation']/@value">-25, -90, 0</set>
+	-->
+</configs>
+
+
+<!--
+Original seat settings, for reference:	
+Motorcycle
+		<property class="seat0">
+			<property name="position" value="0, 0, -.201"/>
+			<property name="rotation" value="0, 0, 0"/>
+			<property name="exit" value="-.9,0,0 ~ .9,0,0 ~ 0,0,-1.5 ~ 0,0,1.6 ~ 0,1.5,0"/>
+		</property>
+		
+		
+4x4
+		<property class="seat0">
+			<property name="position" value="-.4, .36, .06"/>
+			<property name="rotation" value="-25, 0, 0"/>
+			<property name="exit" value="-1.6,0,0 ~ 1.6,0,-1 ~ -.4,0,-2.8 ~ -.4,0,2.6 ~ -.4,2.1,0"/>
+		</property>
+
+		<property class="seat1">
+			<property name="position" value=".4, .36, .06"/>
+			<property name="rotation" value="-25, 0, 0"/>
+			<property name="exit" value="1.6,0,0 ~ -1.6,0,-1 ~ .4,0,-2.8 ~ .4,0,2.6 ~ .4,2.1,0"/>
+		</property>
+		-->

@@ -1,0 +1,4 @@
+<configs>
+	<append xpath="/progression/perks/perk[@name='perkYeahScience']/effect_group/passive_effect[@level='0,5']/@tags">,toolBeaker</append>
+	<append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group/passive_effect[@level='5']/@tags">,solarCell,solarbank</append>
+</configs>
