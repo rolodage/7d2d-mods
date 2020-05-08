@@ -1,0 +1,16 @@
+<config>
+	<append xpath="/items"> 
+		<item name="otterStuffed">
+			<property name="CustomIcon" value="otterStuffed"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="Material" value="Mcloth"/>
+			<property name="Stacknumber" value="50"/>
+			<property name="FuelValue" value="50"/>
+			<property name="Weight" value="10"/>
+			<property name="EconomicValue" value="200"/>
+			<property name="Group" value="Decor/Miscellaneous"/> 
+		</item>
+	</append>
+</config>
