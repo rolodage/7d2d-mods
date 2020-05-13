@@ -26,6 +26,8 @@ ToDo:  Add otter to starting items.
 
 Required on Server and Client, otherwise the PNG art is missing.
 
+Credit:  Took this from War of the Walkers' mod.  Props to Dwallorde.
+
 ## rolo-vehicle-mutliplayer-qol
 
 Add 2 extra seats to the 4x4 for 4 total, and 1 extra seat to the motorcycle for 2 total.
