@@ -1,0 +1,5 @@
+<configs>
+	<set xpath="/progression/perks/perk[@name='perkSlowMetabolism']/effect_group/passive_effect[@name='WaterLossPerHealthPointGained']/@value">-.1,-.5</set>
+	<set xpath="/progression/perks/perk[@name='perkSlowMetabolism']/effect_group/passive_effect[@name='WaterLossPerStaminaPointGained']/@value">-.1,-.5</set>
+	<set xpath="/progression/perks/perk[@name='perkSlowMetabolism']/effect_group/passive_effect[@name='FoodLossPerStaminaPointGained']/@value">-.1,-.5</set>
+</configs>

@@ -1,0 +1,5 @@
+<configs>
+	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='FoodChangeOT' and @value='.00833']/@value">.00555</set>   <!-- 19.2 default: .00833 (33% reduction?)-->
+	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='WaterChangeOT'and @value='.0111']/@value">.00833</set>  <!-- 19.2 default: .0111 (25% reduction?)-->
+	<set xpath="/entity_classes/entity_class[@name='playerMale']/effect_group/passive_effect[@name='FoodLossPerStaminaPointGained'and @value='0.00408']/@value">0.00285</set>  <!-- 19.2 default: 0.00408 (30% reduction?) -->
+</configs>
