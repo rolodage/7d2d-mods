@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <ModInfo>
+        <Name value="rolo-show-hp-bars"/>
+        <Description value="Enable health bars outside of godmode."/>
+        <Author value="rolo"/>
+        <Version value="A20"/>
+    </ModInfo>
+</xml>
