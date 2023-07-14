@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<xml>
+		<ModInfo>
+			<Name value="rolo-modified-lethal-headhots"/>
+			<Description value="HeadShots are lethal.  
+								Adapted from 'Duriel's Lethal HeadShots' (https://www.nexusmods.com/7daystodie/mods/1291)
+								Headshots: 200%, Helmeted Headshots: 100%
+								Body Reduction:  None (removed)
+								Weapon Headshots:  No Change from original mod." />
+			<Author value="Rolo"/>
+			<Version value="1.0"/>
+			<Website value=""/>
+		</ModInfo>
+	</xml>
